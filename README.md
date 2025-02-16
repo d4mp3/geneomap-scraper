@@ -1,4 +1,4 @@
-# geneomap
+# geneomap-scraper
 
 ## Run virtual env and install dependencies
 
