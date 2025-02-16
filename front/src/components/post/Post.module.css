@@ -1,0 +1,68 @@
+.post{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin: 0px 25px 10px 25px;
+    justify-content: center;
+    border-style: none none ridge none;
+    /* border-radius: 7px; */
+}
+
+.image{
+    width: 280px;
+    height: 100px;
+    justify-self: flex-start;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.info{
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category{
+    font-family: 'Lora', serif;
+    font-size: 11px;
+    color: #303030;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.date{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 5px;
+    color: #999
+
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+    text-justify: inter-word;
+}

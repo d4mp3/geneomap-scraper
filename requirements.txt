@@ -1,0 +1,10 @@
+beautifulsoup4>=4.8.2
+mypy>=0.961
+mypy-extensions>=0.4.3
+requests>=2.22.0
+requests-unixsocket>=0.2.0
+lxml>=4.9.1
+coverage>=6.4.4
+selenium>=4.5.0
+webdriver_manager>=3.8.3
+pymongo>=4.3.3

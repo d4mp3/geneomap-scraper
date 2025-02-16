@@ -1,0 +1,36 @@
+.header{
+    top: 0;
+    max-height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url(https://images.unsplash.com/photo-1520299607509-dcd935f9a839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+    opacity: 0.9;
+    z-index: -9;
+    border-radius: 0 0 150px 150px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: 	#111111;
+    text-shadow: white 0.1em 0.1em 0.8em;
+    z-index: 1;
+}
+
+.title_sm{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.title_lg{
+    font-size: 100px;
+}

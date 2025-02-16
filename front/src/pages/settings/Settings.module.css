@@ -1,0 +1,86 @@
+.settings{
+    display: flex;
+    margin-top: 20px;
+}
+
+.wrapper{
+    flex: 9;
+    padding: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkcyan;
+}
+
+.delete_title{
+    color: darkred;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_picture{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.profile_picture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profile_picture_icon{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: darkcyan;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form > input{
+    color: grey;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.submit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #ffba49;
+    background-color: rgb(37, 61, 91);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

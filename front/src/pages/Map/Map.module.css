@@ -1,0 +1,11 @@
+.leaflet-container{
+    height: 95vh;
+    overflow-y: hidden;
+    flex: 12;
+}
+
+.container{
+    height: 95vh;
+    /* display: flex;
+    flex-direction: row; */
+}
